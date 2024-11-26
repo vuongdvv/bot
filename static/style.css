@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+}
+
+#chatbox {
+  border: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  overflow-y: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 800px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+}
+
+.new-chat-button {
+  padding: 5px 10px;
+  background: white;
+  color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-chat-button:hover {
+  background: #e6e6e6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+/* Cải tiến kiểu dáng của tin nhắn của người dùng */
+.user-msg {
+  text-align: right;
+  color: white;
+  background-color: #007bff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  max-width: 75%;
+  margin-left: auto;
+}
+
+/* Cải tiến kiểu dáng của tin nhắn của bot */
+.bot-msg {
+  text-align: left;
+  color: white;
+  background-color: #28a745;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  max-width: 75%;
+  margin-right: auto;
+}
+
+/* Cải thiện phần nhập liệu */
+#user-input {
+  width: 700px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: auto;
+  margin-right: 5px;
+
+}
+
+/* Cải thiện nút gửi */
+.btn-primary {
+  background-color: #007bff;
+  width: 80px;
+  border-color: #007bff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+
+}
+
+/* Tạo hiệu ứng hover cho nút gửi */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Tạo khoảng cách cho form */
+#chat-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.time {
+  display: block;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 5px;
+  text-align: right;
+}

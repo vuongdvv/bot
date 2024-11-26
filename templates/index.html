@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Tư Vấn Nghề Nghiệp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="chat-header">
+        <h4>CAREER CONSULTING CHATBOT</h4>
+        <button class="new-chat-button">+ New Chat</button>
+      </div>
+      <div id="chatbox" class="mb-3"></div>
+      <form id="chat-form">
+        <input type="text" id="user-input" class="form-control" placeholder="Nhập câu hỏi..." />
+        <button type="submit" class="btn btn-primary mt-2">➤</button>
+      </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Xử lý khi người dùng gửi tin nhắn
+        $("#chat-form").on("submit", function (e) {
+          e.preventDefault();
+
+          // Lấy tin nhắn của người dùng
+          let user_input = $("#user-input").val();
+          if (!user_input.trim()) return;
+
+          // Lấy thời gian hiện tại
+          let user_time = new Date().toLocaleTimeString();
+
+          // Hiển thị tin nhắn người dùng
+          $("#chatbox").append(`
+                    <div class="message user-msg">
+                        <p>${user_input}</p>
+                        <span class="time">${user_time}</span>
+                    </div>
+                `);
+
+          // Xóa nội dung ô nhập
+          $("#user-input").val("");
+
+          // Gửi yêu cầu đến server
+          $.post("/get_response", { user_input: user_input }, function (data) {
+            let bot_time = new Date().toLocaleTimeString();
+
+            // Hiển thị phản hồi từ chatbot
+            $("#chatbox").append(`
+                        <div class="bot-msg">
+                            <p>${data.response}</p>
+                            <span class="time">${bot_time}</span>
+                        </div>
+                    `);
+
+            // Cuộn xuống cuối hộp chat
+            $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+          });
+        });
+
+        // Xử lý khi nhấn vào nút "New Chat"
+        $("#new-chat-button").on("click", function () {
+          // Xóa toàn bộ nội dung trong hộp chat
+          $("#chatbox").empty();
+
+          // Đặt ô nhập liệu về trạng thái trống
+          $("#user-input").val("");
+
+          // Cuộn xuống cuối hộp chat (nếu cần)
+          $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+        });
+        // Xử lý khi nhấn nút "New Chat"
+        $(".new-chat-button").on("click", function () {
+          // Xóa toàn bộ nội dung hộp chat
+          $("#chatbox").empty();
+
+          // Đặt lại ô nhập liệu
+          $("#user-input").val("");
+
+          // Cuộn xuống cuối hộp chat (nếu cần)
+          $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+        });
+      });
+    </script>
+  </body>
+</html>

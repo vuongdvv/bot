@@ -1,0 +1,306 @@
+[
+    {
+        "name": "Công nghệ thông tin",
+        "skills": ["Lập trình", "Phân tích hệ thống", "Quản lý dự án"],
+        "salary": "20-50 triệu/tháng",
+        "schools": ["Đại học Bách Khoa", "Đại học Công Nghệ Thông Tin","Đại học Sư phạm Đà Nẵng","..."],
+        "tuition_fee": "30-60 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 20-25 điểm","2022: 22,5-26 điểm","2023: 20-26 điểm","2024: 23-25,5 điểm"]
+    },
+    {
+        "name": "Kế toán",
+        "skills": ["Kỹ năng số liệu", "Quản lý tài chính", "Phân tích"],
+        "salary": "10-25 triệu/tháng",
+        "schools": ["Học viện Tài Chính", "Đại học Kinh Tế Quốc Dân","..."],
+        "tuition_fee": "20-40 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","D01: Toán, Văn, Anh","D07: Toán, Hóa, Anh"],
+        "benchmark": ["2021: 26,55 điểm","2022: 26,2 điểm","2023: 26,15 điểm","2024: 26,45 điểm"]
+    },
+    {
+        "name": "Cảnh sát",
+        "skills": ["Quản lý trật tự an ninh", "Giải quyết tình huống khẩn cấp", "Kỹ năng điều tra"],
+        "salary": "8-20 triệu/tháng",
+        "schools": ["Học viện Cảnh sát Nhân dân", "Đại học Cảnh sát Nhân dân"],
+        "tuition_fee": "Miễn phí học phí",
+        "tuition_fee_free": true,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 25,39-29,75 điểm","2022: 19,75-25,6 điểm","2023: 19,3-24,78 điểm","2024: 19,2-24,3 điểm"]
+    },
+    {
+        "name": "An Ninh",
+        "skills": ["Quản lý trật tự an ninh", "Giải quyết tình huống khẩn cấp", "Kỹ năng điều tra"],
+        "salary": "8-20 triệu/tháng",
+        "schools": ["Học viện An ninh Nhân dân", "Đại học An ninh Nhân dân"],
+        "tuition_fee": "Miễn phí học phí",
+        "tuition_fee_free": true,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 20,25-29,9 điểm","2022: 19,3-29,8 điểm","2023: 18,62-24,5 điểm","2024: 18,7-24,5 điểm"]
+    },
+    {
+        "name": "Quân đội",
+        "skills": ["Quản lý ", "Giải quyết tình huống khẩn cấp", "Kỹ năng điều tra"],
+        "salary": "8-20 triệu/tháng",
+        "schools": ["Trường Sĩ quan Lục quân 1", "Trường sĩ quan Chính Trị","Học viện Hậu cần","Trường Sĩ quan Công binh","..."],
+        "tuition_fee": "Miễn phí học phí",
+        "tuition_fee_free": true,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","C00: Văn, Sử, Địa"],
+        "benchmark": ["2021: 22,68-28,45 điểm","2022: 19-28,75 điểm","2023: 20,45-27,47 điểm","2024: 21,3-27,9 điểm"]
+    },
+    {
+        "name": "Biên phòng",
+        "skills": ["Bảo vệ biên giới", "Đảm bảo an ninh vùng biên", "Chống buôn lậu và ma túy"],
+        "salary": "10-25 triệu/tháng",
+        "schools": ["Học viện Biên phòng","..."],
+        "tuition_fee": "Miễn phí học phí",
+        "tuition_fee_free": true,
+        "admission_combinations": [ "C00: Văn, Sử, Địa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 22,68-28,45 điểm","2022: 19-28,75 điểm","2023: 20,45-27,47 điểm","2024: 21,3-27,9 điểm"]
+    },
+    {
+        "name": "Giáo dục tiểu học",
+        "skills": ["Giảng dạy", "Quản lý lớp học", "Giải quyết tình huống sư phạm"],
+        "salary": "7-15 triệu/tháng",
+        "schools": ["Đại học Sư phạm Hà Nội", "Đại học Sư phạm TP.HCM","Đại học Sư phạm Đà Nẵng","..."],
+        "tuition_fee": "Sinh viên ngành sư phạm có thể được miễn học phí",
+        "tuition_fee_free": true,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "C00: Văn, Sử, Địa","D01: Toán, Văn, Anh"],
+        "benchmark": ["2021: 22,85 điểm","2022: 24,8 điểm","2023: 25 điểm","2024: 27,5 điểm"]
+    },
+    {
+        "name": "Marketing",
+        "skills": ["Quảng cáo", "Phân tích thị trường", "Sáng tạo nội dung"],
+        "salary": "15-40 triệu/tháng",
+        "schools": ["Đại học Kinh Tế Quốc Dân", "Đại học Thương Mại","..."],
+        "tuition_fee": "25-50 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","C00: Văn, Sử, Địa","D01: Toán, Văn, Anh"],
+        "benchmark": ["2021: 27,45 điểm","2022: 27 điểm","2023: 27 điểm","2024: 27 điểm"]
+    },
+    {
+        "name": "Y khoa",
+        "skills": ["Kiến thức y học", "Giao tiếp", "Kỹ năng chẩn đoán"],
+        "salary": "30-100 triệu/tháng",
+        "schools": ["Đại học Y Hà Nội", "Đại học Y Dược TP.HCM","..."],
+        "tuition_fee": "50-80 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "B00: Toán, Hóa học, Sinh học"],
+        "benchmark": ["2021: 28,85 điểm","2022: 19-28,15 điểm","2023: 27,73 điểm","2024: 26,55-28,27 điểm"]
+    },
+    {
+        "name": "Luật",
+        "skills": ["Phân tích luật pháp", "Tranh tụng", "Kỹ năng nghiên cứu"],
+        "salary": "20-70 triệu/tháng",
+        "schools": ["Đại học Luật Hà Nội", "Đại học Quốc gia TP.HCM","Đại học Kinh tế Đà Nẵng","..."],
+        "tuition_fee": "30-60 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","C00: Văn, Sử, Địa","D01: Toán, Văn, Anh"],
+        "benchmark": ["2021: 18-29,25 điểm","2022: 24,35-29,5 điểm","2023: 24-27,36 điểm","2024: 22,85-28,85 điểm"]
+    },
+    {
+        "name": "Thiết kế đồ họa",
+        "skills": ["Sáng tạo", "Photoshop", "UI/UX Design"],
+        "salary": "10-30 triệu/tháng",
+        "schools": ["Đại học Mỹ Thuật Công Nghiệp Hà Nội", "Trường Đại học Kiến Trúc thành phố Hồ Chí Minh","Trường Đại học Kiến Trúc Đà Nẵng","..."],
+        "tuition_fee": "40-70 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","D01: Toán, Văn, Anh","D10: Toán, Anh, Địa lý"],
+        "benchmark": ["2021: 25,35 điểm","2022: 25,17 điểm","2023: 25,69 điểm","2024: 25,54 điểm"]
+    },
+    {
+        "name": "Quản trị nhân lực",
+        "skills": ["Quản lý nhân sự", "Kỹ năng giao tiếp", "Đào tạo"],
+        "salary": "12-25 triệu/tháng",
+        "schools": ["Đại học Lao động Xã hội", "Đại học Kinh tế Quốc dân","Đại học Kinh tế Đà Nẵng","..."],
+        "tuition_fee": "20-40 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 26 điểm","2022: 24,75 điểm","2023: 24,75 điểm","2024: 26 điểm"]
+    },
+    {
+        "name": "Kỹ thuật xây dựng",
+        "skills": ["Thiết kế công trình", "Quản lý dự án", "AutoCAD"],
+        "salary": "15-40 triệu/tháng",
+        "schools": ["Đại học Xây Dựng Hà Nội", "Đại học Bách Khoa","..."],
+        "tuition_fee": "30-60 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","D07: Toán, Hóa, Anh"],
+        "benchmark": ["2021: 23 điểm","2022: 16 điểm","2023: 20 điểm","2024: 22,5 điểm"]
+    },
+    {
+        "name": "Diễn viên",
+        "skills": ["Diễn xuất", "Sáng tạo", "Kỹ năng biểu diễn"],
+        "salary": "Không giới hạn",
+        "schools": ["Đại học Sân khấu Điện ảnh Hà Nội","Đại học Sân khấu Điện ảnh TP.HCM" ],
+        "tuition_fee": "50-100 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 19 điểm","2022: 16 điểm","2023: 17 điểm","2024: 18 điểm"]
+    },
+    {
+        "name": "Kỹ thuật ô tô",
+        "skills": ["Sửa chữa ô tô", "Kỹ thuật cơ khí", "Chẩn đoán lỗi"],
+        "salary": "12-30 triệu/tháng",
+        "schools": ["Đại học Giao thông Vận tải", "Trường Đại học Bách khoa Hà Nội","Trường Đại học Bách khoa Đà Nẵng","..."],
+        "tuition_fee": "15-25 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 2525 điểm","2022: 25,2 điểm","2023: 25,05 điểm","2024: 25,36 điểm"]
+    },
+    {
+        "name": "Kỹ thuật cơ khí",
+        "skills": ["Thiết kế máy móc", "AutoCAD", "Gia công"],
+        "salary": "12-35 triệu/tháng",
+        "schools": ["Đại học Bách Khoa", "Đại học Công nghiệp Hà Nội","..."],
+        "tuition_fee": "30-60 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 24,75 điểm","2022: 23,5 điểm","2023: 24,96 điểm","2024: 24,1 điểm"]
+    },
+    {
+        "name": "Kỹ thuật môi trường",
+        "skills": ["Quản lý môi trường", "Đánh giá tác động môi trường", "Phân tích số liệu"],
+        "salary": "15-35 triệu/tháng",
+        "schools": ["Đại học Tài nguyên và Môi trường", "Đại học Bách Khoa","..."],
+        "tuition_fee": "30-50 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 15 điểm","2022: 17,5 điểm","2023: 15 điểm","2024: 15 điểm"]
+    },
+    {
+        "name": "Y dược",
+        "skills": ["Kiến thức y dược", "Kỹ năng giao tiếp", "Tư vấn"],
+        "salary": "15-40 triệu/tháng",
+        "schools": ["Đại học Dược Hà Nội", "Đại học Y Dược TP.HCM"],
+        "tuition_fee": "40-70 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "B00: Toán, Hóa học, Sinh học"],
+        "benchmark": ["2021: 26,25 điểm","2022: 25,5 điểm","2023: 25,5 điểm","2024: 25,72 điểm"]
+    },
+     {
+        "name": "Quản lý hoạt động bay",
+        "skills": ["Kiến thức hàng không", "Xử lý tình huống"],
+        "salary": "50-200 triệu/tháng",
+        "schools": ["Học viện Hàng Không"],
+        "tuition_fee": "300-500 triệu/khóa",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","D01: Toán, Văn, Anh"],
+        "benchmark": ["2021: 26,3 điểm","2022: 23,3 điểm","2023: 24,2 điểm","2024: 25,5 điểm"]
+    },
+    {
+        "name": "Kỹ thuật viên IT",
+        "skills": ["Sửa chữa phần cứng", "Quản trị mạng", "Bảo trì hệ thống"],
+        "salary": "12-30 triệu/tháng",
+        "schools": ["Đại học Công nghiệp", "Đại học FPT","..."],
+        "tuition_fee": "20-40 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 24,75 điểm","2022: 23,5 điểm","2023: 24,96 điểm","2024: 24,1 điểm"]
+    },
+    {
+        "name": "Chuyên viên tài chính",
+        "skills": ["Phân tích tài chính", "Quản lý vốn", "Đầu tư"],
+        "salary": "20-50 triệu/tháng",
+        "schools": ["Học viện Ngân Hàng", "Đại học Kinh tế TP.HCM"],
+        "tuition_fee": "30-50 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 24,75 điểm","2022: 23,5 điểm","2023: 24,96 điểm","2024: 24,1 điểm"]
+    },
+    {
+        "name": "Nhà phân tích dữ liệu",
+        "skills": ["Xử lý dữ liệu", "SQL", "Phân tích thống kê"],
+        "salary": "25-70 triệu/tháng",
+        "schools": ["Đại học Bách Khoa", "Đại học FPT"],
+        "tuition_fee": "40-60 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 24,75 điểm","2022: 23,5 điểm","2023: 24,96 điểm","2024: 24,1 điểm"]
+    },
+    {
+        "name": "Nhà báo",
+        "skills": ["Viết lách", "Phỏng vấn", "Thu thập thông tin"],
+        "salary": "10-30 triệu/tháng",
+        "schools": ["Học viện Báo chí và Tuyên truyền", "Đại học KHXH&NV"],
+        "tuition_fee": "20-35 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 24,75 điểm","2022: 23,5 điểm","2023: 24,96 điểm","2024: 24,1 điểm"]
+        
+    },
+    {
+        "name": "Quản trị dịch vụ du lịch và lữ hành",
+        "skills": ["Giao tiếp", "Kiến thức địa phương", "Quản lý nhóm"],
+        "salary": "10-25 triệu/tháng",
+        "schools": ["Đại học KHXH&NV", "Đại học Kinh tế Quốc dân","Đại học Thương mại","..."],
+        "tuition_fee": "15-35 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","D01: Toán, Văn, Anh"],
+        "benchmark": ["2021: 26,2 điểm","2022: 26 điểm","2023: 25,6 điểm","2024: 25,5 điểm"]
+    },
+    {
+        "name": "Kỹ thuật điện",
+        "skills": ["Sửa chữa điện", "Thiết kế mạch điện", "Bảo trì hệ thống"],
+        "salary": "10-25 triệu/tháng",
+        "schools": ["Đại học Bách khoa Hà Nội", "Đại học Điện lực","Đại học Công nghệ TP HCM","..."],
+        "tuition_fee": "10-20 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 25 điểm","2022: 21,5 điểm","2023: 22,4 điểm","2024: 24,25 điểm"]
+    },
+    {
+        "name": "Nhà phát triển game",
+        "skills": ["Lập trình", "Thiết kế game", "Quản lý dự án"],
+        "salary": "20-50 triệu/tháng",
+        "schools": ["Đại học FPT", "Học viện Công nghệ Bưu chính Viễn thông","..."],
+        "tuition_fee": "40-80 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 25,85 điểm","2022: 26 điểm","2023: 25,45 điểm","2024: 25,82 điểm"]
+    },
+    {
+        "name": "Chuyên viên xuất nhập khẩu",
+        "skills": ["Quản lý kho", "Thương mại quốc tế", "Giao dịch ngoại thương"],
+        "salary": "15-35 triệu/tháng",
+        "schools": ["Đại học Ngoại Thương", "Đại học Kinh tế Quốc dân","..."],
+        "tuition_fee": "30-50 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh","D01: Toán, Văn, Anh"],
+        "benchmark": ["2021: 25,85 điểm","2022: 26 điểm","2023: 25,45 điểm","2024: 25,82 điểm"]
+    },
+    {
+        "name": "Tâm lý học",
+        "skills": ["Lắng nghe", "Chẩn đoán tâm lý", "Kỹ năng tư vấn"],
+        "salary": "15-40 triệu/tháng",
+        "schools": ["Đại học KHXH&NV", "Đại học Sư phạm Hà Nội","..."],
+        "tuition_fee": "20-40 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "B00: Toán, Hóa học, Sinh học","C00: Văn, Sử, Địa","D01: Toán, Văn, Anh"],
+        "benchmark": ["2021: 28 điểm","2022: 24,25-29 điểm","2023: 25,5-28 điểm","2024: 26,18-28,6 điểm"]
+    },
+
+    {
+        "name": "Kỹ thuật máy tính",
+        "skills": ["Lập trình", "Quản lý dự án", "Phân tích hệ thống"],
+        "salary": "30-70 triệu/tháng",
+        "schools": ["Đại học Bách Khoa", "Đại học Công nghệ Thông tin","..."],
+        "tuition_fee": "40-80 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": [ "A00: Toán, Lý, Hóa", "A01: Toán, Lý, Tiếng Anh"],
+        "benchmark": ["2021: 25,85 điểm","2022: 26 điểm","2023: 25,45 điểm","2024: 25,82 điểm"]
+    },
+    {
+        "name": "Kỹ thuật viên xét nghiệm",
+        "skills": ["Chăm sóc bệnh nhân", "Sử dụng thiết bị y tế", "Kỹ thuật xét nghiệm"],
+        "salary": "15-40 triệu/tháng",
+        "schools": ["Đại học Y Hà Nội", "Đại học Y Dược TP.HCM"],
+        "tuition_fee": "50-80 triệu/năm",
+        "tuition_fee_free": false,
+        "admission_combinations": ["B00: Toán, Hóa học, Sinh học", 
+        "A00: Toán, Lý, Hóa", "D08: Toán, Sinh học, Tiếng Anh", "C08: Ngữ văn, Hóa học, Sinh học"],
+        "benchmark": ["2021: 20-25 điểm","2022: 22,5-26 điểm","2023: 19,5 điểm","2024: 26,2 điểm"]
+        
+    }
+]
